@@ -19,6 +19,7 @@
     --text--color: #54423D;
     --first--color-light: #EAE7E6;
     --first--color-lighten: #FFFAFA;
+    --gray-light: #C9B3AF;
 
     /*font and typografy*/
     --body-font: 'Poppins', sans-serif;
@@ -181,8 +182,10 @@ img{
 }
 
 .nav_link:hover{
-    color: var(--text--color);
+    color: var(--gray-light);
 }
+
+
 
 .nav_toggle{
     color: var(--first--color-dark);
@@ -197,7 +200,7 @@ img{
 
 /*active menu*/
 .active{
-    color: var(--text--color);
+    color: var(--gray-light);
 }
 
 /*home*/
@@ -497,6 +500,10 @@ img{
 
 .services_content, .services_icon, .services_description, .services_title{
     transition: .5s;
+}
+
+.services_content {
+    background-color: var(--first--color);
 }
 
 .services_content:hover {
